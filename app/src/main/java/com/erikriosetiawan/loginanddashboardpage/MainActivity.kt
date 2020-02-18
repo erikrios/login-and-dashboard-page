@@ -16,6 +16,11 @@ class MainActivity : AppCompatActivity() {
 
         // Assign the data binding with content view
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
+
+        // Handling a click for the button
+        binding.btnLogin.setOnClickListener {
+            sendEmailData()
+        }
     }
 
     // Passing data using intent between activities
