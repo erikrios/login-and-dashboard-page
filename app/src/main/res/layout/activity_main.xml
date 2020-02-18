@@ -20,6 +20,7 @@
             android:text="@string/unida_engineer_bootcamp"
             android:textColor="@android:color/white"
             android:textSize="20sp"
+            android:maxLines="1"
             android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@id/card_view_login"
             app:layout_constraintEnd_toEndOf="parent"
