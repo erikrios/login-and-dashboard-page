@@ -10,4 +10,5 @@
     <string name="login_with_google">Masuk Dengan Google</string>
     <string name="sign_up_now">Tidak punya akun? <u>Daftar Sekarang!</u></string>
     <string name="unida_engineer_bootcamp">Unida Engineer Bootcamp Android</string>
+    <string name="welcome_text">Hello, Selamat Datang\n%s!</string>
 </resources>
