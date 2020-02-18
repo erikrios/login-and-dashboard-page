@@ -4,4 +4,5 @@
     <string name="password">Kata Sandi</string>
     <string name="forgot_password">Lupa kata sandi?</string>
     <string name="keep_me_signed">Biarkan saya masuk</string>
+    <string name="sign_in">Masuk</string>
 </resources>

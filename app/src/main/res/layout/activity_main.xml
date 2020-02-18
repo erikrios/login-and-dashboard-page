@@ -60,8 +60,8 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
                     android:layout_marginBottom="16dp"
+                    android:orientation="horizontal"
                     android:weightSum="2">
 
                     <TextView
@@ -89,7 +89,17 @@
 
                 </LinearLayout>
 
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp"
+                    android:text="@string/sign_in"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="10dp" />
+
             </LinearLayout>
+
 
         </androidx.cardview.widget.CardView>
 
