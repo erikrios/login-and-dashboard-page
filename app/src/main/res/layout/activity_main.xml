@@ -28,29 +28,33 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
                 android:orientation="vertical">
 
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="16dp"
                     android:background="@drawable/bg_form"
+                    android:drawableStart="@drawable/ic_person_black_24dp"
+                    android:drawablePadding="16dp"
                     android:hint="@string/email_address"
                     android:importantForAutofill="no"
                     android:inputType="textEmailAddress"
-                    android:drawableStart="@drawable/ic_person_black_24dp"
-                    android:drawablePadding="16dp"
-                    android:padding="16dp"
-                    android:layout_marginBottom="16dp"/>
+                    android:padding="16dp" />
 
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@drawable/bg_form"
+                    android:drawableStart="@drawable/ic_vpn_key_black_24dp"
+                    android:drawableEnd="@drawable/ic_visibility_black_24dp"
+                    android:drawablePadding="16dp"
                     android:hint="@string/password"
                     android:importantForAutofill="no"
                     android:inputType="textPassword"
                     android:padding="16dp" />
-
 
             </LinearLayout>
 
