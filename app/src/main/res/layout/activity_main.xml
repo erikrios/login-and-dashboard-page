@@ -13,7 +13,7 @@
 
         <androidx.cardview.widget.CardView
             android:layout_width="0dp"
-            android:layout_height="400dp"
+            android:layout_height="wrap_content"
             app:cardBackgroundColor="@android:color/white"
             app:cardCornerRadius="15dp"
             app:cardElevation="15dp"
@@ -31,17 +31,24 @@
                 android:orientation="vertical">
 
                 <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
                     android:background="@drawable/bg_form"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:hint="@string/email_address"
+                    android:importantForAutofill="no"
+                    android:inputType="textEmailAddress"
                     android:padding="16dp"
-                    android:hint="Alamat Email"/>
+                    android:layout_marginBottom="16dp"/>
 
-                <TextView
+                <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="sdfd" />
+                    android:background="@drawable/bg_form"
+                    android:hint="@string/password"
+                    android:importantForAutofill="no"
+                    android:inputType="textPassword"
+                    android:padding="16dp" />
+
 
             </LinearLayout>
 

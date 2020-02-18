@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">LoginAndDashboardPage</string>
+    <string name="email_address">Alamat Email</string>
+    <string name="password">Kata Sandi</string>
 </resources>
