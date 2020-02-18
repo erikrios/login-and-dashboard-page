@@ -5,4 +5,9 @@
     <string name="forgot_password">Lupa kata sandi?</string>
     <string name="keep_me_signed">Biarkan saya masuk</string>
     <string name="sign_in">Masuk</string>
+    <string name="or">atau</string>
+    <string name="login_with_facebook">Masuk Dengan Facebook</string>
+    <string name="login_with_google">Masuk Dengan Google</string>
+    <string name="sign_up_now">Tidak punya akun? <u>Daftar Sekarang!</u></string>
+    <string name="unida_engineer_bootcamp">Unida Engineer Bootcamp Android</string>
 </resources>
