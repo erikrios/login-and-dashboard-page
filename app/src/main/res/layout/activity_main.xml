@@ -47,6 +47,7 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
                     android:background="@drawable/bg_form"
                     android:drawableStart="@drawable/ic_vpn_key_black_24dp"
                     android:drawableEnd="@drawable/ic_visibility_black_24dp"
@@ -55,6 +56,37 @@
                     android:importantForAutofill="no"
                     android:inputType="textPassword"
                     android:padding="16dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="2">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:text="@string/forgot_password"
+                        android:textSize="14sp" />
+
+                    <CheckBox
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.2"
+                        android:checked="true" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="8dp"
+                        android:layout_weight="0.8"
+                        android:gravity="center|start"
+                        android:text="@string/keep_me_signed"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
 
             </LinearLayout>
 

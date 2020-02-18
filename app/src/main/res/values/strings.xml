@@ -2,4 +2,6 @@
     <string name="app_name">LoginAndDashboardPage</string>
     <string name="email_address">Alamat Email</string>
     <string name="password">Kata Sandi</string>
+    <string name="forgot_password">Lupa kata sandi?</string>
+    <string name="keep_me_signed">Biarkan saya masuk</string>
 </resources>
